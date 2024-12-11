@@ -1,0 +1,192 @@
+question,choices,llm-answer,ground-truth,llm-cot-reasoning
+"Carrie always arrived to work after Cynthia, as _ had a shorter driving commute in the mornings.","['Carrie', 'Cynthia']",<output>B</output>,"[0, 1]","<scratchpad>
+Since Carrie has a shorter driving commute, she arrives earlier than Cynthia.</scratchpad><output>B</output>"
+"Felicia wanted to be pampered by Emily, so _ went to the jewelry store and bought an expensive ring.","['Felicia', 'Emily']",<output>A</output>,"[0, 1]","<scratchpad>Felicia wants Emily to pamper her with an expensive ring. So, Felicia goes to buy it.</scratchpad><output>A</output>"
+"Refraining from drinking was easy for Kyle but not Eric, as _ never enjoyed the taste of alcohol.","['Kyle', 'Eric']",<output>A</output>,"[1, 0]","<scratchpad>
+Kyle found it easy to refrain from drinking because he didn't enjoy the taste of alcohol. So, ""he"" refers to Kyle.</scratchpad><output>A</output>"
+Justin used a stencil on their presentation lettering but Derrick did not. _ had a very sloppy looking presentation.,"['Justin', 'Derrick']",<output>B</output>,"[0, 1]","<scratchpad>
+Since Justin used a stencil for their presentation, it would likely look more neat and organized compared to one without a stencil. Therefore, the presentation that was very sloppy looking must have been Derrick's.</scratchpad><output>B</output>"
+The clothing in the north was warmer than the clothing in the south because there was more sun in the _ .,"['south', 'north']",<output>B.</output>,"[1, 0]","<scratchpad>
+The sentence implies that there is less sun in the south, so people wear warmer clothes.
+</scratchpad><output>B.</output>"
+"Adam decided to shave Denniss beard before the reuinion, but _ thought it was too short.","['Adam', 'Dennis']",<output>B.</output>,"[0, 1]","<scratchpad>
+The sentence implies that someone thought Dennis' beard was too short after Adam shaved it. Since Adam is the one who shaved Dennis' beard, it's unlikely he would think it was too short afterwards. Therefore, the pronoun ""he"" must refer to Dennis himself.
+</scratchpad><output>B.</output>"
+"They had to eat a lot to gain the strength they had lost and be able to work, the _ was too much.","['work', 'strength']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that they needed more food to regain their strength and work efficiently. The blank should fill in with something that is excessive or overwhelming for them at their current state.</scratchpad><output>A</output>"
+"Adam always spent all of the free time watching Tv unlike Hunter who volunteered, due to _ being lazy.","['Adam', 'Hunter']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that Adam is lazy because he spends all his free time watching TV, while Hunter volunteers despite not being lazy.</scratchpad><output>A</output>"
+Jill was on a budget so she only bought a new dress for the ceremony and wore an old hat. She figured the _ would be more noticeable.,"['dress', 'hat']",<output>A</output>,"[1, 0]","<scratchpad>Since Jill is on a budget, she wants to draw attention to something new rather than something old. Therefore, she chose the dress as it's new.</scratchpad><output>A</output>"
+James passport was kept inside the purse. He never knew the _ is that big.,"['passport', 'purse']",<output>B</output>,"[0, 1]","<scratchpad>He already mentioned his passport was in the purse, so it can't be ""passport"". The sentence implies he didn't know something about the purse's size.</scratchpad><output>B</output>"
+Jessica was arrested for growing hemp by the police but not Sarah because _ fled during the field raid.,"['Jessica', 'Sarah']",<output>B</output>,"[0, 1]","<scratchpad>
+Sarah fled during the field raid, so she wasn't arrested.</scratchpad><output>B</output>"
+"The children were not vaccinated, which was fine with Betty but annoyed Mary. _ knew they didn't make kids autistic.","['Betty', 'Mary']",<output>A</output>,"[0, 1]","<scratchpad>
+Betty believes it's fine that the children weren't vaccinated, so she wouldn't think vaccination causes autism. Therefore, ""she"" refers to Betty.</scratchpad><output>A</output>"
+"The dress could use either velcro or a zipper to close, the _ would last longer.","['velcro', 'zipper']",<output>B</output>,"[0, 1]",<scratchpad>Velcro tends to wear out faster than zippers due to its fabric-based nature.</scratchpad><output>B</output>
+"Dennis is changing the sand in a pool filter for Joseph, because _ is a bit lazy.","['Dennis', 'Joseph']",<output>A</output>,"[0, 1]",<scratchpad>Dennis is doing something for Joseph because Joseph is lazy.</scratchpad><output>A</output>
+Christine was watching makeup tutorials while Amy was not because _ wanted to forget how to put blush on correctly.,"['Christine', 'Amy']",<output>B</output>,"[0, 1]","<scratchpad>
+Christine was watching makeup tutorials, so she knows how to apply blush correctly. Amy wasn't watching these tutorials, which means she doesn't know how to apply blush correctly and thus wants to forget how to do it incorrectly.</scratchpad><output>B</output>"
+"Donald was chosen to be a model while Dennis was passed over, because _ was exceptionally tall.","['Donald', 'Dennis']",<output>A</output>,"[1, 0]","<scratchpad>Since the sentence states that Donald was chosen ""because"" he was exceptionally tall, it implies that Donald is the one who was exceptionally tall.</scratchpad><output>A</output>"
+Cynthia had to pee after one large coffee but Betty did not as _ had a very small bladder.,"['Cynthia', 'Betty']",<output>B</output>,"[1, 0]","<scratchpad>
+Betty does not have to pee because she has a small bladder, which means she cannot hold much liquid at once.</scratchpad><output>B</output>"
+"He wanted to kill time at the house instead of the playground, because everyone at the _ was fun.","['playground', 'house']",<output>B.</output>,"[0, 1]","<scratchpad>
+The sentence implies that ""everyone at the house"" is fun, so the blank should be filled with ""house"".
+</scratchpad><output>B.</output>"
+"Christopher was getting ready to wash Joel's hair,so _  got out shampoo by the sink and sat in the chair.","['Christopher', 'Joel']",<output>A</output>,"[0, 1]","<scratchpad>Christopher is preparing to wash Joel's hair, so it would be Christopher who gets out the shampoo.</scratchpad><output>A</output>"
+"Cynthia was happy to give Patricia the politics section of the newspaper, because _ had little interest in the election results.","['Cynthia', 'Patricia']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence implies that it's Patricia who has little interest in the election results, as Cynthia is giving her the section she doesn't care about.</scratchpad><output>B</output>"
+If I want to build a swing should I build it out of wood or use a tire? It seems like the _ would get rotten eventually.,"['tire', 'wood']",<output>B</output>,"[0, 1]","<scratchpad>
+Wood gets rotten over time, especially when exposed to moisture. A tire might not rot but could degrade from sunlight and heat.</scratchpad><output>B</output>"
+"When Benjamin put the family into debt, Adam filed for divorce; then the judge gave _ a sympathetic look.","['Benjamin', 'Adam']",<output>B.</output>,"[0, 1]","<scratchpad>
+The sentence implies that the person who received the sympathetic look from the judge is the one who was not at fault in causing the debt or the divorce. Since Benjamin put the family into debt, it's likely that Adam, who filed for divorce afterwards, would be seen as more sympathetic by the judge.
+</scratchpad><output>B.</output>"
+Rachel but not Christine was tracked down by police because _ made it to the hideout.,"['Rachel', 'Christine']",<output>A</output>,"[0, 1]","<scratchpad>
+The sentence implies that Rachel, not Christine, reached the hideout first and was subsequently tracked down by police. Therefore, ""Rachel"" is the correct answer.</scratchpad><output>A</output>"
+"Megan sentenced Jennifer to probation for stealing from the grocery store, _ obeys the laws that are written.","['Megan', 'Jennifer']",<output>B.</output>,"[1, 0]","<scratchpad>
+Jennifer is the one who was sentenced and thus should obey the laws.
+</scratchpad><output>B.</output>"
+"My mom always had training at the house, but not today because the _ was unavailable.","['training', 'house']",<output>A.</output>,"[0, 1]","<scratchpad>
+The blank should be filled with something that would make sense if it were unavailable, leading to no training happening. The options given are ""training"" and ""house"". If ""training"" were unavailable, there still could have been training at the house. Therefore, the blank must refer to something essential for the training to happen at all.
+</scratchpad><output>A.</output>"
+"Eric replaced his long hair with a new hat for the summer time, the _ was old.","['hair', 'hat']",<output>A</output>,"[1, 0]",<scratchpad>He replaced his old hair with a new hat.</scratchpad><output>A</output>
+He found it harder to write the letter than the e-mail because the _ had so few words.,"['letter', 'e-mail']",<output>A.</output>,"[0, 1]","<scratchpad>
+The sentence implies that writing the letter was more difficult due to its brevity compared to the email. Therefore, the blank should be filled with a word that means 'short' or 'brief'.
+</scratchpad><output>A.</output>"
+Kyle loved to camp in the wilderness but Justin preferred a nice hotel. _ booked a trip to Yellowstone Park.,"['Kyle', 'Justin']",<output>B</output>,"[1, 0]","<scratchpad>Since Kyle prefers camping and Justin prefers hotels, it's likely that Justin booked the trip to Yellowstone Park.</scratchpad><output>B</output>"
+The store had 80 platters but only 2 bowls left in stock because the _ were in high demand.,"['platters', 'bowls']",<output>B</output>,"[0, 1]","<scratchpad>
+Since there are only 2 bowls left, it implies that bowls were in high demand and sold out quickly compared to platters which still have a significant number (80) in stock.</scratchpad><output>B</output>"
+The newborns in the nursery were very hardy because they were fed the _ calorie food during the high and low calorie experiment.,"['high', 'low']",<output>A</output>,"[1, 0]","<scratchpad>Since the newborns were fed the food during both high and low calorie experiments, it implies that the food was neither exclusively high nor low in calories. Therefore, the most fitting answer is:</scratchpad><output>A</output>"
+Angela was a homebody while Amy loved to travel the world whenever they could. _ took a vacation to the beach over the summer.,"['Angela', 'Amy']",<output>B</output>,"[0, 1]","<scratchpad>Since Angela is described as a homebody, it's less likely she would take a vacation to the beach. Amy, on the other hand, loves to travel.</scratchpad><output>B</output>"
+Mary went to the office to receive a new card with her photo on it  and discarded a sticker because the _ was temporary.,"['sticker', 'card']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that Mary received a permanent card but discarded a temporary sticker.</scratchpad><output>A</output>"
+"She decided to report the accident and the burglary, but the _ required much less investigation.","['burglary', 'accident']",<output>B</output>,"[0, 1]","<scratchpad>
+The sentence implies that one event was easier to investigate than the other. Since ""much less"" suggests that the burglary was simpler or had fewer details to look into compared to the accident.</scratchpad><output>B</output>"
+If I want to build a swing should I build it out of wood or use a tire? It seems like the _ would get dirty and gross inside.,"['tire', 'wood']",<output>B.</output>,"[1, 0]","<scratchpad>
+A tire might seem like an unconventional choice for a swing, but it could be more comfortable than wooden seat. However, tires can degrade over time when exposed to sunlight and weather, which could make them unsafe for use as a swing seat. Wooden seats are more durable and easier to clean.
+</scratchpad>
+<output>B.</output>"
+She counted her calories for her diet and found she needed more so she ate a brownie instead of an apple since the _ has fewer.,"['apple', 'brownie']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence implies that the brownie has fewer calories than the apple.</scratchpad><output>B</output>"
+"The temperature in winter is much different than summer,  the _  is always lower.","['summer', 'winter']",<output>B.</output>,"[0, 1]","<scratchpad>
+Winter temperatures are typically lower than summer temperatures.
+</scratchpad><output>B.</output>"
+Jeffrey went to the doctor to treat their ailments but not Robert so _ became sicker.,"['Jeffrey', 'Robert']",<output>B</output>,"[0, 1]","<scratchpad>Since Jeffrey went to the doctor and got treated, it's Robert who didn't go and therefore became sicker.</scratchpad><output>B</output>"
+"The boot was removed from the car tire and put on the truck tire, since the _ was now legally parked.","['car', 'truck']",<output>A</output>,"[1, 0]","<scratchpad>
+Since the boot (a device used to immobilize a vehicle by preventing it from being moved) was removed from the car tire and placed onto the truck tire, it implies that the car is no longer immobilized and can be legally parked.</scratchpad><output>A</output>"
+"Robert was simply not as stoic as Joel , as _ tended to handle things gracefully.","['Robert', 'Joel']",<output>A</output>,"[0, 1]","<scratchpad>
+The sentence implies that one person handles things more gracefully than the other. The blank should be filled with the name of the person who is less stoic and tends to handle things better, which is Robert.</scratchpad><output>A</output>"
+Happiness was most important to Nick but money was most important to William. _ valued a good life.,"['Nick', 'William']",<output>A.</output>,"[1, 0]","<scratchpad>
+Nick values happiness the most, so he would value a good life that brings him happiness.
+</scratchpad><output>A.</output>"
+Laura asked Rachel if she could borrow some clothes because _ loved her fashion sense.,"['Laura', 'Rachel']",<output>A</output>,"[1, 0]","<scratchpad>Rachel is the one being asked, so it's Rachel who loves Laura's fashion sense.</scratchpad><output>A</output>"
+"Jody wanted new mascara and eyeliner, either black or brown, but the _ was too light.","['black', 'brown']",<output>B</output>,"[0, 1]","<scratchpad>
+If Jody wanted either black or brown, but found one of them too light, it must be B because black is darker.</scratchpad><output>B</output>"
+The shoe james bought got pinched by a nail while jogging because the _ is soft.,"['shoe', 'nail']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that it was the shoe's material that made it susceptible to being pierced by a nail. The nail itself is hard, so it couldn't be due to its hardness.</scratchpad><output>A</output>"
+They were wanting  to move the bed thru the door. The _ was way to small.,"['door', 'bed']",<output>A.</output>,"[1, 0]","<scratchpad>
+The sentence is saying that the size of something made it impossible for them to move the bed through the door. The pronoun ""it"" refers to the size, so we need to find a word that means 'size' or 'dimension'.
+</scratchpad><output>A.</output>"
+The beef tasted better than the pork did although the _ had been slightly undercooked.,"['pork', 'beef']",<output>A</output>,"[0, 1]","<scratchpad>The sentence is comparing how well two types of meat tasted, with one being slightly undercooked. The blank should refer to the type of meat that was undercooked.</scratchpad><output>A</output>"
+James panicked when his phone fell on the table thinking it will break but the _ is strong.,"['phone', 'table']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that James thought the table would break, not his phone. So, ""table"" is strong.
+</scratchpad><output>A</output>"
+The ingredients that I use are tastier than the available toppings because the _ are old.,"['ingredients', 'toppings']",<output>A</output>,"[0, 1]","<scratchpad>
+Ingredients are usually fresher and tastier when they're new, while toppings tend to be older since they're used last in the preparation process.</scratchpad><output>A</output>"
+The color of the paint was quite pleasing to Jessica however Natalie believed it to be too bright. _ painted their room with a subdued color paint.,"['Jessica', 'Natalie']",<output>B</output>,"[0, 1]","<scratchpad>Jessica preferred the brighter color, so it's unlikely she chose a subdued one. Therefore, Natalie must have been the one who painted the room with a subdued color.</scratchpad><output>B</output>"
+Samantha gifted her new bathrobe to Betty because it felt very itchy for _ when she tried it on.,"['Samantha', 'Betty']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that the bathrobe was itchy for Samantha, not Betty, as Samantha is the one who tried it on.</scratchpad><output>A</output>"
+"The pine trees were still green in December, but the oak trees were not, because the _ keep their leaves in fall.","['oak trees', 'pine trees']",<output>A</output>,"[0, 1]","<scratchpad>Oak trees are deciduous and lose their leaves in fall, while pine trees are evergreen and retain their needles.</scratchpad><output>A</output>"
+"Neil asked Brian to hand him the measuring tape, but _ already measured the wall to center the picture.","['Neil', 'Brian']",<output>B</output>,"[0, 1]","<scratchpad>
+The sentence implies that someone has already measured the wall before Neil asked for the tape. The pronoun ""he"" refers to a male person who is not Neil (since Neil is asking for something), so it must be Brian.</scratchpad><output>B</output>"
+Steven believes they can buy happiness but Craig thinks otherwise as _ is very materialistic.,"['Steven', 'Craig']",<output>B</output>,"[1, 0]","<scratchpad>Craig thinks that buying happiness is very materialistic, so he disagrees with Steven's belief.</scratchpad><output>B</output>"
+The personal trainer gave Laura but not Victoria the more difficult exercise because _ was in shape.,"['Laura', 'Victoria']",<output>A</output>,"[1, 0]",<scratchpad>Laura received the harder exercise because she is in shape.</scratchpad><output>A</output>
+The man with the fever came over and talked to Carrie and not Lindsey because _ was a patient.,"['Carrie', 'Lindsey']",<output>A</output>,"[0, 1]","<scratchpad>
+Since ""Carrie"" is mentioned before ""Lindsey"", it's likely that Carrie is the one who has the fever.</scratchpad><output>A</output>"
+"Elena is concerned that Megan might have a Twitter addiction, but _ is probably worrying about nothing.","['Elena', 'Megan']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence structure suggests that the blank should be filled with the subject of the concern, not the person doing the worrying. So, it's Megan who has the potential Twitter addiction, and thus Megan is the one Elena might be worried about.</scratchpad><output>B</output>"
+Patricia had to pay less tax than Cynthia because _ made less money in the year.,"['Patricia', 'Cynthia']",<output>A</output>,"[1, 0]","<scratchpad>
+Since Patricia paid less tax, it means she earned less income compared to Cynthia.</scratchpad><output>A</output>"
+Kerry was running later when he took his car to work than when he took a taxi because he ran into more traffic in the _ .,"['car', 'taxi']",<output>A</output>,"[1, 0]","<scratchpad>When Kerry takes his car, he runs into more traffic compared to taking a taxi.</scratchpad><output>A</output>"
+The assertive commander told the privates to change their boots but not their shirts because the _ were disgusting.,"['boots', 'shirts']",<output>A</output>,"[1, 0]","<scratchpad>He said they should change their boots, implying those are dirty or inappropriate. He didn't mention anything about changing their shirts.</scratchpad><output>A</output>"
+Judy bought new brushes to paint the etched glasses crack but it didn't fit. The _ was too narrow.,"['brush', 'crack']",<output>A</output>,"[0, 1]","<scratchpad>
+The sentence implies that Judy bought new brushes, but they were not suitable because something was too narrow. The only options that make sense in this context are 'brush' or 'crack'. Since the brushes didn't fit due to being too narrow, it's likely that the brush itself was too wide for the crack.</scratchpad><output>A</output>"
+Elena enjoyed yoga classes while Amy preferred other forms of exercise; this was because _ was flexible.,"['Elena', 'Amy']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that the person who is flexible enjoys yoga classes, and Elena is the one enjoying them. Therefore, it's Elena who is flexible.</scratchpad><output>A</output>"
+"I couldn't decide if I should pressure cook or smoke the pig feet.  After looking outside, I decided the weather was poor enough to _ them.","['smoke', 'pressure cook']",<output>B</output>,"[0, 1]","<scratchpad>Since the weather is poor, smoking might not be ideal due to potential rain or wind affecting the process. Pressure cooking would be more suitable as it's an indoor method.</scratchpad><output>B</output>"
+Angela loved to wear sun glasses but Jessica didn't. _ bought a fancy new pair of shoes.,"['Angela', 'Jessica']",<output>A</output>,"[0, 1]","<scratchpad>
+Since Angela loves wearing sunglasses and Jessica doesn't, it's more likely that Angela bought the fancy new pair of shoes.</scratchpad><output>A</output>"
+"Samantha couldn't see any alternatives, but Emily could, because _ wasn't nearly as open minded.","['Samantha', 'Emily']",<output>B</output>,"[1, 0]","<scratchpad>
+Emily is the one who could see alternatives, indicating she was more open-minded than Samantha.</scratchpad><output>B</output>"
+The chef fried less mushrooms than tomatoes because the _ were ordered frequently at the restaurant.,"['mushrooms', 'tomatoes']",<output>A</output>,"[0, 1]","<scratchpad>Since ""less"" implies fewer, and it's followed by ""mushrooms,"" we know that mushrooms were ordered fewer times than tomatoes.</scratchpad><output>A</output>"
+Megan liked to read a book good more than Samantha because _ liked the peace and quiet.,"['Megan', 'Samantha']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that Megan enjoyed reading books more than Samantha did due to her preference for peace and quiet. The pronoun ""she"" refers to Megan in this context.
+</scratchpad><output>A</output>"
+"Derrick was sad that Robert did not show up, _ forgot they had an agreement to meet each other.","['Derrick', 'Robert']",<output>A</output>,"[0, 1]","<scratchpad>
+It's stated that Derrick was sad because Robert didn't show up. The pronoun ""they"" refers to both Derrick and Robert since it's used in the context of their agreement. Therefore, it's not clear who forgot about the meeting.</scratchpad><output>A</output>"
+"God liked to control the day and the night, but the _ was too bright.","['day', 'night']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence is saying God liked controlling both day and night, but one of them was too bright for his liking. Since it's mentioned that it was too bright, it must be referring to the night because nights are typically darker than days.</scratchpad><output>B</output>"
+Mary was helping Patricia's daughter put on makeup but  _ watches a lot of makeup tutorials.,"['Mary', 'Patricia']",<output>A</output>,"[0, 1]","<scratchpad>
+The sentence implies that the person who watches a lot of makeup tutorials is the one putting on makeup, which is Mary in this context.</scratchpad><output>A</output>"
+I was wearing wool socks when I went to try on my new boots but I couldn't get them on because the _ were too large.,"['boots', 'socks']",<output>A.</output>,"[0, 1]","<scratchpad>
+The sentence implies that it's not the socks that are too large, but rather the boots. So, the blank should be filled with ""boots"".
+</scratchpad><output>A.</output>"
+William was a huge animal rights activist but Randy couldn't care less so _ loved leather.,"['William', 'Randy']",<output>B</output>,"[0, 1]","<scratchpad>
+Randy didn't care about animals rights, hence he would love leather products.</scratchpad><output>B</output>"
+Benjamin had less piercings than Jeffrey did so it was harder for _ to get a job.,"['Benjamin', 'Jeffrey']",<output>A</output>,"[0, 1]","<scratchpad>
+Since Benjamin had fewer piercings, he might have found it harder to get a job compared to Jeffrey.</scratchpad><output>A</output>"
+Bobby had to use his pen to finish the exam rather than the pencil because the _ was full of ink.,"['pen', 'pencil']",<output>B.</output>,"[1, 0]","<scratchpad>
+The sentence implies that Bobby used his pen instead of his pencil because the pencil was out of ink. Therefore, the blank should be filled with ""pencil"".
+</scratchpad><output>B.</output>"
+"Nick wanted to play a game on the floor, but Dennis was hesitant because of his knees. _ was disappointed.","['Nick', 'Dennis']",<output>B</output>,"[1, 0]","<scratchpad>
+Since Dennis was hesitant due to his knees, it implies that he didn't want to play or couldn't play comfortably. Therefore, Dennis is disappointed.</scratchpad><output>B</output>"
+Hunter gave Justin two weeks to respond after sending him a demand letter. .After that _ will sue him in the court.,"['Hunter', 'Justin']",<output>A</output>,"[1, 0]","<scratchpad>If Hunter is giving Justin two weeks to respond, it's likely that Hunter will be the one taking legal action if Justin doesn't comply within that timeframe.</scratchpad><output>A</output>"
+"Monica was worried that Mary might be caught in a scam when they started their new job, but _ decided to trust their friend's judgement.","['Monica', 'Mary']",<output>A</output>,"[1, 0]","<scratchpad>It seems like the sentence is saying that despite Monica's worry about a potential scam, she chose to trust Mary's judgment and start the new job with her.</scratchpad><output>A</output>"
+"Of the two owners, Jessica was far worse than Jennifer, because _ like to beat the dogs.","['Jessica', 'Jennifer']",<output>A</output>,"[1, 0]","<scratchpad>
+Jessica is described as being ""far worse"" compared to Jennifer in terms of beating the dogs. Therefore, it's Jessica who likes to beat the dogs.</scratchpad><output>A</output>"
+The cake got burnt under the heat applied to it. It appears the _ is too small.,"['cake', 'heat']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence implies that the heat source was insufficient for the size of the cake, causing it to burn. Therefore, ""heat"" is too small.</scratchpad><output>B</output>"
+Getting a divorce as soon as possible suited Victoria but not Lindsey because _ was no longer in love.,"['Victoria', 'Lindsey']",<output>B.</output>,"[1, 0]","<scratchpad>
+Victoria wanted the divorce immediately, so it wasn't about her feelings. Lindsey didn't want the divorce because she still loved him/her.
+</scratchpad><output>B.</output>"
+Tanya spent more on the children's birthday party than Amy. _ thought a magician was a good use of funds.,"['Tanya', 'Amy']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that whoever thought a magician was a good use of funds also spent more on the children's birthday party. Since Tanya is mentioned to have spent more, she must be the one who had this thought.</scratchpad><output>A</output>"
+The maid took away a cozy blanket from Lawrence but not Nick because _ was very hot.,"['Lawrence', 'Nick']",<output>A</output>,"[1, 0]","<scratchpad>Lawrence was cold, hence he needed the blanket. Nick did not need it because he was very hot.</scratchpad><output>A</output>"
+The patient put in a special request for Brett instead of Kyle because _ was always stern.,"['Brett', 'Kyle']",<output>B</output>,"[0, 1]","<scratchpad>
+Kyle is always stern, so the patient prefers Brett.</scratchpad><output>B</output>"
+James was able to hide the book inside his jacket because the _ is small.,"['book', 'jacket']",<output>A</output>,"[1, 0]","<scratchpad>To solve this problem, we need to identify which option is smaller: ""book"" or ""jacket"". Since a typical book is smaller than a jacket, it's easier for James to hide the book inside his jacket.</scratchpad><output>A</output>"
+"Craig gifted Eric a new picnic table, because _ borrowed some money a while ago.","['Craig', 'Eric']",<output>A</output>,"[1, 0]","<scratchpad>Craig is the one who gifted the picnic table to Eric. The sentence structure ""because [someone] borrowed some money"" implies that the person borrowing the money is the one receiving the gift.</scratchpad><output>A</output>"
+"At Jan's home, she dusted the dresser more frequently than the fan, because the _ was more difficult to reach.","['fan', 'dresser']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence implies that Jan found it harder to reach the dresser compared to the fan.</scratchpad><output>B</output>"
+When we go hiking I bring my backpack because it has built in water bottles and places for snacks. Today I forgot to fill the _ and was dehydrated.,"['snacks', 'water bottles']",<output>B</output>,"[0, 1]","<scratchpad>
+The sentence implies that the speaker forgot to fill something, leading to dehydration while hiking. Since the backpack has built-in water bottles, it's likely that those were not filled.</scratchpad><output>B</output>"
+John painted the pole red close to the color of the wall and painted the frame white and now the _ is contrasting.,"['frame', 'pole']",<output>B</output>,"[1, 0]","<scratchpad>
+The sentence implies that the frame was originally a different color than the wall, so painting it white makes it stand out (contrast) against the wall.</scratchpad><output>B</output>"
+"I handed the documents over to immigration with the passports, but they only accepted the passports, because the _ were complete.","['documents', 'passports']",<output>A</output>,"[0, 1]","<scratchpad>
+The sentence implies that the documents were not needed or accepted by immigration because the passports were sufficient and complete on their own.</scratchpad><output>A</output>"
+"Jack wanted to start a game, but couldn't decide between baseball or basketball. The _ game would call for more friends.","['baseball', 'basketball']",<output>A</output>,"[1, 0]","<scratchpad>
+Baseball requires 9 players on each team while basketball only needs 5. Therefore, starting a baseball game would require more friends.</scratchpad><output>A</output>"
+Adam asked Dennis to always remember to flush the toilet because _ doesn't flush it.,"['Adam', 'Dennis']",<output>A</output>,"[0, 1]",<scratchpad>Adam is asking Dennis to remember something he himself does not do.</scratchpad><output>A</output>
+"Pho needs cilantro and beef to be tasty. However, the _ can be too bitter.","['cilantro', 'beef']",<output>A</output>,"[1, 0]","<scratchpad>
+Cilantro can sometimes have a bitter taste if it's not fresh or if it's used in large amounts.</scratchpad><output>A</output>"
+"Emily had always loved kids and Jessica felt the opposite, so _ was surprised to become a pediatrician.","['Emily', 'Jessica']",<output>A</output>,"[0, 1]","<scratchpad>Emily loves kids but Jessica doesn't, so it would be surprising if Jessica became a pediatrician.</scratchpad><output>A</output>"
+The woman practiced for her interview and not for the sport since the _ was expedient.,"['interview', 'sport']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence is saying that she practiced for her interview, not for the sport because it was more important or urgent (expedient) to do so. The blank should be filled with the thing that was most important to practice for.</scratchpad><output>A</output>"
+"Elena waited patiently for Angela, as _ arrived early to meet at their prearranged spot.","['Elena', 'Angela']",<output>B.</output>,"[1, 0]","<scratchpad>
+Angela is the one who arrived early according to the sentence.
+</scratchpad><output>B.</output>"
+It doesn't take much to shift between ice and water. The _ is hard and strong when its cold.,"['water', 'ice']",<output>A</output>,"[0, 1]","<scratchpad>
+Ice is hard and strong, while water is not as hard or strong when it's cold.
+</scratchpad><output>A</output>"
+"With my ankle sprain, I am not able to put my foot in my shoe because the _ is too fat.","['sprain', 'shoe']",<output>A</output>,"[1, 0]","<scratchpad>
+The sentence implies that it's not the sprain itself but something related to it that makes the foot unable to fit into the shoe. The word ""fat"" suggests size, so it's likely referring to the swelling caused by the ankle injury.</scratchpad><output>A</output>"
+"Adam was law-abiding and not a crook like Joseph, so it was surprising that _ was the one with a restraining order against him.","['Adam', 'Joseph']",<output>B</output>,"[1, 0]","<scratchpad>
+It's stated that Adam is law-abiding while Joseph is not. A restraining order would typically be issued against someone who has committed or threatened violence or harassment. Therefore, it makes sense that Joseph, being the crook, would have a restraining order against him.</scratchpad><output>B</output>"
+The teenager got a job at the supermarket instead of at the diner because he had to work during school at the _ .,"['supermarket', 'diner']",<output>B.</output>,"[0, 1]","<scratchpad>
+The sentence implies that working at the supermarket conflicted with his school schedule, hence it's the reason he didn't choose it.
+</scratchpad><output>B.</output>"
+"The box slid down James hand when he was wearing a glove, hence he removed it and lift it again. The _ is slippery.","['glove', 'hand']",<output>A.</output>,"[1, 0]","<scratchpad>
+The sentence implies that the glove made his hand slippery because of its smoothness or moisture. Therefore, the blank should be filled with ""glove"".
+</scratchpad><output>A.</output>"
+Brett asked Nelson where they were because _ had had been driving after he fell asleep.,"['Brett', 'Nelson']",<output>B</output>,"[0, 1]","<scratchpad>
+The sentence is saying that Brett asked Nelson about their location because Nelson had been driving after falling asleep. The pronoun ""he"" refers to Nelson, so the correct answer is B.</scratchpad><output>B</output>"
+Jeri was deciding what to bring to a potluck and picked cookies over a pie because the _ could be shared with fewer people.,"['cookies', 'pie']",<output>A</output>,"[0, 1]","<scratchpad>Cookies are easier to divide into smaller pieces than a pie, so they can be shared with fewer people.</scratchpad><output>A</output>"
