@@ -7,10 +7,13 @@ This repository is the official implementation of **CoT-Redirection**.
 | *An example of CoT-Redirection applied.* |
 
 # Table of Contents.
+- [Read it!](#read-the-paper!)
 - [Table of Contents](#table-of-contents)
 - [Abstract](#abstract)
 - [Requirements](#requirements)
 - [Acknowledgements](#Acknowledgements-and-Award)
+
+# [Read the paper!](https://raw.githubusercontent.com/sahal-mulki/cot-redirection/ad9302b342719bfde539cc09f1b8403464b37976/CoT-Redirection-Final.pdf)
 
 # Abstract
 
