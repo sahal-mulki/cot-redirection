@@ -1,0 +1,6 @@
+pandas
+ollama==0.4.2
+langchain
+langchain-ollama
+openai
+tqdm
