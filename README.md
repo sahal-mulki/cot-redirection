@@ -1,4 +1,4 @@
-# CoT-Redirection
+# CoT-Redirection: Can Chains of Thought be manipulated in Large Language Models?
 
 This repository is the official implementation of **CoT-Redirection**.
 
@@ -7,17 +7,22 @@ This repository is the official implementation of **CoT-Redirection**.
 | *An example of CoT-Redirection applied.* |
 
 # Table of Contents.
-- [Read it!](#read-the-paper!)
 - [Table of Contents](#table-of-contents)
 - [Abstract](#abstract)
 - [Requirements](#requirements)
-- [Acknowledgements](#Acknowledgements-and-Award)
+- [Acknowledgements](#acknowledgements)
 
-# [Read the paper!](https://raw.githubusercontent.com/sahal-mulki/cot-redirection/ad9302b342719bfde539cc09f1b8403464b37976/CoT-Redirection-Final.pdf)
+## Updates:
+
+I'm glad to announce that my paper won Best Research Paper in the HW-TWS Action Research Cohort of '25! [More information here.](https://www.linkedin.com/posts/sahalmulki_ai-llm-machinelearning-activity-7338238288173932545-LEq3). 
+
+### Update 2❗
+
+I'm honored to be presenting this paper at [ISDIA '2026](https://isdia.org/) in Dubai at the 7th of February. I'll be updating this page with the Springer publication DOI, link and citation once available. 
 
 # Abstract
 
-Large Language Models (LLMs) are widely used AI systems that can process and generate high-quality natural language text with contextual understanding. One weakness often presented by LLMs is their lack of common sense and reasoning abilities. Chain of Thought (CoT) is a proposed method to counter this lack of human-like natural reasoning skills. This study explores if it is possible for an attacker to abuse CoT to misalign LLMs and control their responses. Using a secondary review of existing literature, and primary quantitative experiments, this study concludes that it is indeed possible for CoT to be abused for malicious tampering with LLMs. Additionally, this paper contributes to the existing field of adversarial attacks on LLMs, by proposing a novel method for CoT tampering to influence the output of LLMs. This study was limited in its breadth and in the lack of computational resources available. The author of this study hopes that this study will pave the way for further research within the intersection of Chain of Thought and adversarial attacks.
+Large Language Models (LLMs) are widely used AI systems that process, understand and generate high-quality natural language text. While Chain of Thought (CoT) prompting has emerged as an effective strategy to enhance LLM reasoning capabilities, it may also serve as a valuable yet under ex-plored attack vector for novel adversarial attacks on LLMs. This study investigates whether adversarial manipulation of a LLM’s CoT reasoning steps can lead to attacker-controlled responses that override the model’s intended outputs. To test our hypothesis, we introduced a novel CoT-based redirection method designed to influence model responses in a simulated scenario where attackers could inject text into the models’ CoT steps and we conducted a systematic review of related literature. Our results showed that our attack method (“CoT-Redirection”) demonstrated very high attack success rates of 97-100% on two leading open-source LLMs (Llama 3.1 8B and Phi 3 Medium), with task accuracy dropping to near-zero levels under attack conditions; a reduction of approximately 60-70 percentage points from baseline CoT performance. While our results confirm that CoT reasoning can serve as a potent attack vector for adversaries wishing to steer model responses; our findings are constrained by a limited sample size (300 questions), two tested models, and computational resources. However, our work provides initial empirical evidence of a new dimension of adversarial vulnerability in rea-soning-driven architectures and aims to stimulate further research at the in-tersection of CoT prompting and adversarial attacks in LLMs.
 
 # Requirements
 
@@ -27,25 +32,18 @@ You may also easily use the Google Colab version of the dataset generation noteb
 
 `pip install -r requirements.txt`
 
-# Acknowledgements and Award:
+# Acknowledgements
 
 I'd like to specially thank Dr. Maheen Hasib from Heriot-Watt University Dubai for her invaluable feedback and mentorship on this paper. Further, I'd like to thank my school, The Westminster School, Dubai, on presenting me with this opportunity.
 
-## Update:
-
-I'm glad to announce that my paper won Best Research Paper in the HW-TWS Action Research Cohort of '25! [More information here.](https://www.linkedin.com/posts/sahalmulki_ai-llm-machinelearning-activity-7338238288173932545-LEq3)
 
 # Cite this:
 
 ```
-@article{Mulki_2025,
-type={Machine Learning},
-title={sahal-mulki/cot-redirection},
-rights={GPL-3.0},
-url={https://github.com/sahal-mulki/cot-redirection},
-author={Mulki, Sahal},
-year={2025},
-month=jun,
-language={English}}
-
+@inproceedings{mulki2026cotredirection,
+  title = {CoT-Redirection: Can Chains of Thought be manipulated in Large Language Models?},
+  author = {Muhammad Sahal Mulki and Maheen Hasib},
+  year = {2026},
+  language={English}
+}
 ```
