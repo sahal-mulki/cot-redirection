@@ -22,7 +22,7 @@ I'm honored to be presenting this paper at [ISDIA '2026](https://isdia.org/) in 
 
 ### Update 3❗
 
-Our work won the Best Paper Award at ISDIA! This is a great privelege and honour and many thanks go out to my mentor, Dr. Hasib, the organizing team and steering committee at ISDIA.
+Our work won the Best Paper Award at ISDIA! This is a great privilege and honour and many thanks to my mentor, Dr. Hasib, the organizing team and steering committee at ISDIA.
 
 # Abstract
 
